@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+ 
+{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("../Asserts/background.jpeg")no-repeat center center fixed ;
+    
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    
+}
+.signup-box
+{
+    width: 360px;
+    height: 480px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.form .user-input
+{
+    width: 320px;
+    height: 55px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    background: black;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: border-left,border-right,box-shadow;
+}
+.form .user-input:hover, .form .user-input:focus, .form .user-input:active
+{
+    border-left: solid 8px #f28111;
+    border-right: solid 8px #f28111;
+    /* box-shadow: 0 0 100px black */
+}
+.image1
+{
+    position: relative;
+    left: 1.7rem;
+}
+
+.form .btn
+{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 55px;
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: border-left,border-right,box-shadow;
+}
+.form .btn:hover
+{
+    border-left: solid 8px #f28111;
+    border-right: solid 8px #f28111;
+     
+}
+.btn:hover,
+.btn.active{
+  color: #f28111;
+}
+.form .option-02
+{
+    color: #000;
+    padding: 20px;
+    font-size: 14px;
+}
+.signin
+{
+    color: blue;
+}
+
+@media screen and (max-width:400px)
+{
+    .form{
+        width: 100%;
+    }
+    .form .user-input{
+        width: 100%;
+    }
+    .form .btn{
+        width: 100%;
+    }
+}
+
+.registered
+{
+   font-weight: 600;
+}
+.signin
+{
+    text-decoration: underline;
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import SignIn from './Components/SignIn/SignIn.js';
+import Register from './Components/Register/Register';
+import Home from './Components/Home/Home';
+import Navbar from './Components/Navbar/Navbar';
+//import Particles from './Components/Particles/Particles';
+
 
 function App() {
+  let [route,Setroute]=useState('Signin');
+  const OnrouteChange=(Route)=>
+  {
+    route=Route;
+    Setroute(route);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+    { route==='Signin'? <SignIn OnrouteChange={OnrouteChange}/> :
+        route ==='Register'?<Register OnrouteChange={OnrouteChange}/>:
+        <Home/>}
     </div>
+    
+    
+ 
   );
 }
 
