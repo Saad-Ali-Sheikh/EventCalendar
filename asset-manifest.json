@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/EventCalendar/static/css/main.12db260e.chunk.css",
+    "main.js": "/EventCalendar/static/js/main.53c9dbd6.chunk.js",
+    "main.js.map": "/EventCalendar/static/js/main.53c9dbd6.chunk.js.map",
+    "runtime-main.js": "/EventCalendar/static/js/runtime-main.ab0c0a98.js",
+    "runtime-main.js.map": "/EventCalendar/static/js/runtime-main.ab0c0a98.js.map",
+    "static/js/2.1f6fe998.chunk.js": "/EventCalendar/static/js/2.1f6fe998.chunk.js",
+    "static/js/2.1f6fe998.chunk.js.map": "/EventCalendar/static/js/2.1f6fe998.chunk.js.map",
+    "static/js/3.ed4d90c6.chunk.js": "/EventCalendar/static/js/3.ed4d90c6.chunk.js",
+    "static/js/3.ed4d90c6.chunk.js.map": "/EventCalendar/static/js/3.ed4d90c6.chunk.js.map",
+    "index.html": "/EventCalendar/index.html",
+    "static/css/main.12db260e.chunk.css.map": "/EventCalendar/static/css/main.12db260e.chunk.css.map",
+    "static/js/2.1f6fe998.chunk.js.LICENSE.txt": "/EventCalendar/static/js/2.1f6fe998.chunk.js.LICENSE.txt",
+    "static/media/12-01.ab20f86f.png": "/EventCalendar/static/media/12-01.ab20f86f.png",
+    "static/media/2-01.99d9c17a.png": "/EventCalendar/static/media/2-01.99d9c17a.png",
+    "static/media/Register.css": "/EventCalendar/static/media/background.2656ca9e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab0c0a98.js",
+    "static/js/2.1f6fe998.chunk.js",
+    "static/css/main.12db260e.chunk.css",
+    "static/js/main.53c9dbd6.chunk.js"
+  ]
+}
